@@ -14,6 +14,7 @@ There are 2 processes reading 2 trace files and sometimes they come across Page 
 When any process find k+1(k:first argument) PF flushes the page table!
 
 Processes are reading reference traces alternately after q(2nd arg) repetitions(reads)!
+
 Optional [max] arg: number of reference traces to be read from each process.If not given then processes read whole trace file.
 
 ### At the end Simulator shows for every process results about:
